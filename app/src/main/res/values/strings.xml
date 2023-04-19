@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FoodTinder</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">8BMRRVNtpxr8zo3a9ZLdkgNLniL0bFWSt1Jp2LF0
+</string>
+    <string name="back4app_client_key">0RJYXa83ZJfQtKFKgKcGlfIOIi4qd1NznhE6WyfS</string>
+</resources>
