@@ -45,6 +45,7 @@ public class DiscoverPage extends Fragment {
         images.add((R.drawable.el_valle));
         images.add((R.drawable.melting_pot));
         images.add(R.drawable.culvers);
+        images.add(R.drawable.yebisuya);
 
         arrayAdapter = new MyAdapter(getContext(), images);
 
