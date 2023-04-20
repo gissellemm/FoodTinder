@@ -34,13 +34,19 @@ public class DiscoverPage extends Fragment {
 
         images = new ArrayList<>();
         images.add(R.drawable.poor_calvins);
-        images.add(R.drawable.ecco_midtown);
+        images.add(R.drawable.bww);
+        images.add(R.drawable.pizzahut);
+        images.add(R.drawable.ecco_midterm);
+        images.add(R.drawable.zaxbys);
+        images.add((R.drawable.halal_guys));
+        images.add(R.drawable.mcdonalds);
+        images.add((R.drawable.the_vortex));
+        images.add(R.drawable.wingstop);
+        images.add((R.drawable.el_valle));
+        images.add((R.drawable.melting_pot));
+        images.add(R.drawable.culvers);
 
-        List<String> titles = new ArrayList<>();
-        titles.add("Poor Calvins:   4.0 ★★★★✩   Asian Fusion");
-        titles.add("Ecco Midtown:   5.0 ★★★★★   European Cuisine");
-
-        arrayAdapter = new MyAdapter(getContext(), images, titles);
+        arrayAdapter = new MyAdapter(getContext(), images);
 
         flingContainer.setAdapter(arrayAdapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
@@ -62,7 +68,7 @@ public class DiscoverPage extends Fragment {
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-                images.add(R.drawable.ecco_midtown);
+                images.add(R.drawable.halal_guys);
                 arrayAdapter.notifyDataSetChanged();
                 i++;
             }

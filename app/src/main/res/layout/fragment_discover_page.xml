@@ -19,17 +19,21 @@
 
         <Button
             android:id="@+id/btn_left"
-            android:layout_width="0dp"
+            android:layout_width="3dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="No Thanks" />
+            android:layout_marginRight="8dp"
+            android:text="No Thanks"
+            android:backgroundTint="@color/red"/>
 
         <Button
             android:id="@+id/btn_right"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Save" />
+            android:layout_marginLeft="8dp"
+            android:text="Like"
+            android:backgroundTint="@color/red"/>
 
     </LinearLayout>
 

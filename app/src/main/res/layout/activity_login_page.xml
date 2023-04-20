@@ -49,6 +49,7 @@
         android:layout_below="@id/idEdtPassword"
         android:layout_marginTop="500dp"
         android:text="Register User"
+        android:backgroundTint="@color/red"
         android:textAllCaps="false"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="10dp" />

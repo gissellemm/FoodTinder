@@ -13,12 +13,10 @@ import java.util.List;
 public class MyAdapter extends BaseAdapter {
     private Context mContext;
     private List<Integer> mImages;
-    private List<String> mTexts;
 
-    public MyAdapter(Context context, List<Integer> images, List<String> texts) {
+    public MyAdapter(Context context, List<Integer> images) {
         mContext = context;
         mImages = images;
-        mTexts = texts;
     }
 
     @Override
@@ -44,9 +42,6 @@ public class MyAdapter extends BaseAdapter {
         }
         ImageView imageView = view.findViewById(R.id.image);
         imageView.setImageResource(mImages.get(position));
-        TextView textView = view.findViewById(R.id.helloText);
-        textView.setText(mTexts.get(position));
         return view;
     }
 }
-
